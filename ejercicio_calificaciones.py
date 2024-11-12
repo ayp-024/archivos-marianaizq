@@ -23,6 +23,6 @@ def alumnos_promedio(archivo_entrada, archivo_salida):
                 salida.write(f"{apellido.upper()}, {nombre}: {promedio_round}\n")
 #Rutas
 archivo_entrada= "data/calificaciones.txt"
-archivo_salida= "data/promedios.tx"
+archivo_salida= "data/promedios.txt"
 #Ejecutar función
 alumnos_promedio(archivo_entrada, archivo_salida)
